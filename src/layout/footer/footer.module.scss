@@ -1,0 +1,248 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: 300px;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 42px;
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: radial-gradient(134.03% 21.93% at 43% 111.00000000000001%, rgb(61, 86, 138), rgb(14, 33, 73) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+}
+
+.logo_img {
+    max-width: 181px;
+    width: 100%;
+    height: 178px;
+}
+
+.title {
+    max-width: 311px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Abhaya Libre;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    margin-bottom: 28px;
+
+}
+
+.text {
+    max-width: 268px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+
+.input {
+    padding-left: 20px;
+    max-width: 288px;
+    width: 100%;
+    height: 44px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.input::placeholder {
+    padding-left: 19px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 14px;
+}
+
+.comment {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    max-width: 288px;
+    width: 100%;
+    height: 99px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.comment::placeholder {
+    padding-top: 15px;
+    padding-left: 19px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 10px;
+}
+
+.checkitem {
+    width: 22px;
+    height: 22px;
+    border: none;
+    outline: none;
+}
+
+.checktext {
+    color: #fff;
+    font-size: 13px;
+}
+
+.form {
+    max-width: 576px;
+    width: 100%;
+}
+
+// container 2 scsss parts
+
+
+.container2 {
+    max-width: 1440px;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    padding-top: 44px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service {
+    max-width: 219px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title2 {
+    color: rgb(14, 33, 73);
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.title2_2 {
+    color: rgb(14, 33, 73);
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.text2 {
+    color: rgb(14, 33, 73);
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.text2_2 {
+    color: rgb(14, 33, 73);
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(184, 193, 202);
+    /* #B8C1CA */
+    border: 1px solid rgb(184, 193, 202);
+    margin-top: 43px;
+    margin-bottom: 29px;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ico {
+    width: 36px;
+    height: 36px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.end_title {
+    color: rgb(14, 33, 73);
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+
+.end_text {
+    color: rgb(14, 33, 73);
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
